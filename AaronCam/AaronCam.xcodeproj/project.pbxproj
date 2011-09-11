@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4DE3B1141CF90C001D228E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE3B0141CF90C001D228E /* UIKit.framework */; };
+		5D4DE3B3141CF90C001D228E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE3B2141CF90C001D228E /* Foundation.framework */; };
+		5D4DE3B5141CF90C001D228E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE3B4141CF90C001D228E /* CoreGraphics.framework */; };
+		5D4DE3BB141CF90C001D228E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE3B9141CF90C001D228E /* InfoPlist.strings */; };
+		5D4DE3BD141CF90C001D228E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE3BC141CF90C001D228E /* main.m */; };
+		5D4DE3C1141CF90C001D228E /* AaronCamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE3C0141CF90C001D228E /* AaronCamAppDelegate.m */; };
+		5D4DE3C4141CF90C001D228E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE3C2141CF90C001D228E /* MainWindow.xib */; };
+		5D4DE3C7141CF90C001D228E /* AaronCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE3C6141CF90C001D228E /* AaronCamViewController.m */; };
+		5D4DE3CA141CF90C001D228E /* AaronCamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE3C8141CF90C001D228E /* AaronCamViewController.xib */; };
+		5D4DE3F4141CFB5C001D228E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE3F3141CFB5B001D228E /* CFNetwork.framework */; };
+		5D4DE4D3141D0091001D228E /* LFHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE444141D0090001D228E /* LFHTTPRequest.m */; };
+		5D4DE4D4141D0091001D228E /* LFSiteReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE446141D0090001D228E /* LFSiteReachability.m */; };
+		5D4DE4D5141D0091001D228E /* NSData+LFHTTPFormExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE449141D0090001D228E /* NSData+LFHTTPFormExtensions.m */; };
+		5D4DE4EC141D0091001D228E /* ObjectiveFlickr-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE484141D0090001D228E /* ObjectiveFlickr-Info.plist */; };
+		5D4DE4ED141D0091001D228E /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE488141D0090001D228E /* README.markdown */; };
+		5D4DE4EE141D0091001D228E /* SampleAPIKey.h.template in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DE489141D0090001D228E /* SampleAPIKey.h.template */; };
+		5D4DE4EF141D0091001D228E /* ObjectiveFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE48C141D0090001D228E /* ObjectiveFlickr.m */; };
+		5D4DE4F0141D0091001D228E /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DE48F141D0090001D228E /* OFXMLMapper.m */; };
+		5D4DE511141D018D001D228E /* libObjectiveFlickr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE4FA141D0091001D228E /* libObjectiveFlickr.a */; };
+		5D4DE519141D02A0001D228E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE518141D02A0001D228E /* MobileCoreServices.framework */; };
+		5D4DE51B141D02BB001D228E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DE51A141D02BB001D228E /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D4DE4F7141D0091001D228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A8666490F9593B200325E1C;
+			remoteInfo = "ObjectiveFlickr (framework)";
+		};
+		5D4DE4F9141D0091001D228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6ABF72E60F939BE600B9179E;
+			remoteInfo = "ObjectiveFlickr (library)";
+		};
+		5D4DE50F141D0124001D228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF72E50F939BE600B9179E;
+			remoteInfo = "ObjectiveFlickr (library)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D4DE3AC141CF90C001D228E /* AaronCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AaronCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4DE3B0141CF90C001D228E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D4DE3B2141CF90C001D228E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D4DE3B4141CF90C001D228E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D4DE3B8141CF90C001D228E /* AaronCam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AaronCam-Info.plist"; sourceTree = "<group>"; };
+		5D4DE3BA141CF90C001D228E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D4DE3BC141CF90C001D228E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D4DE3BE141CF90C001D228E /* AaronCam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AaronCam-Prefix.pch"; sourceTree = "<group>"; };
+		5D4DE3BF141CF90C001D228E /* AaronCamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AaronCamAppDelegate.h; sourceTree = "<group>"; };
+		5D4DE3C0141CF90C001D228E /* AaronCamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AaronCamAppDelegate.m; sourceTree = "<group>"; };
+		5D4DE3C3141CF90C001D228E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5D4DE3C5141CF90C001D228E /* AaronCamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AaronCamViewController.h; sourceTree = "<group>"; };
+		5D4DE3C6141CF90C001D228E /* AaronCamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AaronCamViewController.m; sourceTree = "<group>"; };
+		5D4DE3C9141CF90C001D228E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AaronCamViewController.xib; sourceTree = "<group>"; };
+		5D4DE3F3141CFB5B001D228E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5D4DE443141D0090001D228E /* LFHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFHTTPRequest.h; sourceTree = "<group>"; };
+		5D4DE444141D0090001D228E /* LFHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFHTTPRequest.m; sourceTree = "<group>"; };
+		5D4DE445141D0090001D228E /* LFSiteReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSiteReachability.h; sourceTree = "<group>"; };
+		5D4DE446141D0090001D228E /* LFSiteReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSiteReachability.m; sourceTree = "<group>"; };
+		5D4DE447141D0090001D228E /* LFWebAPIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWebAPIKit.h; sourceTree = "<group>"; };
+		5D4DE448141D0090001D228E /* NSData+LFHTTPFormExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LFHTTPFormExtensions.h"; sourceTree = "<group>"; };
+		5D4DE449141D0090001D228E /* NSData+LFHTTPFormExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LFHTTPFormExtensions.m"; sourceTree = "<group>"; };
+		5D4DE484141D0090001D228E /* ObjectiveFlickr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ObjectiveFlickr-Info.plist"; sourceTree = "<group>"; };
+		5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ObjectiveFlickr.xcodeproj; sourceTree = "<group>"; };
+		5D4DE488141D0090001D228E /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		5D4DE489141D0090001D228E /* SampleAPIKey.h.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleAPIKey.h.template; sourceTree = "<group>"; };
+		5D4DE48B141D0090001D228E /* ObjectiveFlickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveFlickr.h; sourceTree = "<group>"; };
+		5D4DE48C141D0090001D228E /* ObjectiveFlickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveFlickr.m; sourceTree = "<group>"; };
+		5D4DE48D141D0090001D228E /* OFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFUtilities.h; sourceTree = "<group>"; };
+		5D4DE48E141D0090001D228E /* OFXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXMLMapper.h; sourceTree = "<group>"; };
+		5D4DE48F141D0090001D228E /* OFXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXMLMapper.m; sourceTree = "<group>"; };
+		5D4DE516141D0282001D228E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5D4DE518141D02A0001D228E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5D4DE51A141D02BB001D228E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4DE3A9141CF90C001D228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DE51B141D02BB001D228E /* SystemConfiguration.framework in Frameworks */,
+				5D4DE519141D02A0001D228E /* MobileCoreServices.framework in Frameworks */,
+				5D4DE511141D018D001D228E /* libObjectiveFlickr.a in Frameworks */,
+				5D4DE3F4141CFB5C001D228E /* CFNetwork.framework in Frameworks */,
+				5D4DE3B1141CF90C001D228E /* UIKit.framework in Frameworks */,
+				5D4DE3B3141CF90C001D228E /* Foundation.framework in Frameworks */,
+				5D4DE3B5141CF90C001D228E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4DE3A1141CF90B001D228E = {
+			isa = PBXGroup;
+			children = (
+				5D4DE51A141D02BB001D228E /* SystemConfiguration.framework */,
+				5D4DE518141D02A0001D228E /* MobileCoreServices.framework */,
+				5D4DE516141D0282001D228E /* MediaPlayer.framework */,
+				5D4DE3F3141CFB5B001D228E /* CFNetwork.framework */,
+				5D4DE3B6141CF90C001D228E /* AaronCam */,
+				5D4DE3F6141D0090001D228E /* ext */,
+				5D4DE3AF141CF90C001D228E /* Frameworks */,
+				5D4DE3AD141CF90C001D228E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4DE3AD141CF90C001D228E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE3AC141CF90C001D228E /* AaronCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4DE3AF141CF90C001D228E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE3B0141CF90C001D228E /* UIKit.framework */,
+				5D4DE3B2141CF90C001D228E /* Foundation.framework */,
+				5D4DE3B4141CF90C001D228E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D4DE3B6141CF90C001D228E /* AaronCam */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE3BF141CF90C001D228E /* AaronCamAppDelegate.h */,
+				5D4DE3C0141CF90C001D228E /* AaronCamAppDelegate.m */,
+				5D4DE3C2141CF90C001D228E /* MainWindow.xib */,
+				5D4DE3C5141CF90C001D228E /* AaronCamViewController.h */,
+				5D4DE3C6141CF90C001D228E /* AaronCamViewController.m */,
+				5D4DE3C8141CF90C001D228E /* AaronCamViewController.xib */,
+				5D4DE3B7141CF90C001D228E /* Supporting Files */,
+			);
+			path = AaronCam;
+			sourceTree = "<group>";
+		};
+		5D4DE3B7141CF90C001D228E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE3B8141CF90C001D228E /* AaronCam-Info.plist */,
+				5D4DE3B9141CF90C001D228E /* InfoPlist.strings */,
+				5D4DE3BC141CF90C001D228E /* main.m */,
+				5D4DE3BE141CF90C001D228E /* AaronCam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D4DE3F6141D0090001D228E /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE3F7141D0090001D228E /* objectiveflickr */,
+			);
+			name = ext;
+			path = ../ext;
+			sourceTree = "<group>";
+		};
+		5D4DE3F7141D0090001D228E /* objectiveflickr */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE442141D0090001D228E /* LFWebAPIKit */,
+				5D4DE484141D0090001D228E /* ObjectiveFlickr-Info.plist */,
+				5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */,
+				5D4DE488141D0090001D228E /* README.markdown */,
+				5D4DE489141D0090001D228E /* SampleAPIKey.h.template */,
+				5D4DE48A141D0090001D228E /* Source */,
+			);
+			path = objectiveflickr;
+			sourceTree = "<group>";
+		};
+		5D4DE442141D0090001D228E /* LFWebAPIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE443141D0090001D228E /* LFHTTPRequest.h */,
+				5D4DE444141D0090001D228E /* LFHTTPRequest.m */,
+				5D4DE445141D0090001D228E /* LFSiteReachability.h */,
+				5D4DE446141D0090001D228E /* LFSiteReachability.m */,
+				5D4DE447141D0090001D228E /* LFWebAPIKit.h */,
+				5D4DE448141D0090001D228E /* NSData+LFHTTPFormExtensions.h */,
+				5D4DE449141D0090001D228E /* NSData+LFHTTPFormExtensions.m */,
+			);
+			path = LFWebAPIKit;
+			sourceTree = "<group>";
+		};
+		5D4DE486141D0090001D228E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE4F8141D0091001D228E /* ObjectiveFlickr.framework */,
+				5D4DE4FA141D0091001D228E /* libObjectiveFlickr.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4DE48A141D0090001D228E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DE48B141D0090001D228E /* ObjectiveFlickr.h */,
+				5D4DE48C141D0090001D228E /* ObjectiveFlickr.m */,
+				5D4DE48D141D0090001D228E /* OFUtilities.h */,
+				5D4DE48E141D0090001D228E /* OFXMLMapper.h */,
+				5D4DE48F141D0090001D228E /* OFXMLMapper.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4DE3AB141CF90C001D228E /* AaronCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4DE3CD141CF90C001D228E /* Build configuration list for PBXNativeTarget "AaronCam" */;
+			buildPhases = (
+				5D4DE3A8141CF90C001D228E /* Sources */,
+				5D4DE3A9141CF90C001D228E /* Frameworks */,
+				5D4DE3AA141CF90C001D228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4DE510141D0124001D228E /* PBXTargetDependency */,
+			);
+			name = AaronCam;
+			productName = AaronCam;
+			productReference = 5D4DE3AC141CF90C001D228E /* AaronCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4DE3A3141CF90B001D228E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5D4DE3A6141CF90B001D228E /* Build configuration list for PBXProject "AaronCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 5D4DE3A1141CF90B001D228E;
+			productRefGroup = 5D4DE3AD141CF90C001D228E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D4DE486141D0090001D228E /* Products */;
+					ProjectRef = 5D4DE485141D0090001D228E /* ObjectiveFlickr.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5D4DE3AB141CF90C001D228E /* AaronCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5D4DE4F8141D0091001D228E /* ObjectiveFlickr.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = ObjectiveFlickr.framework;
+			path = ObjectiveFlickr;
+			remoteRef = 5D4DE4F7141D0091001D228E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D4DE4FA141D0091001D228E /* libObjectiveFlickr.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjectiveFlickr.a;
+			remoteRef = 5D4DE4F9141D0091001D228E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4DE3AA141CF90C001D228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DE3BB141CF90C001D228E /* InfoPlist.strings in Resources */,
+				5D4DE3C4141CF90C001D228E /* MainWindow.xib in Resources */,
+				5D4DE3CA141CF90C001D228E /* AaronCamViewController.xib in Resources */,
+				5D4DE4EC141D0091001D228E /* ObjectiveFlickr-Info.plist in Resources */,
+				5D4DE4ED141D0091001D228E /* README.markdown in Resources */,
+				5D4DE4EE141D0091001D228E /* SampleAPIKey.h.template in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4DE3A8141CF90C001D228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DE3BD141CF90C001D228E /* main.m in Sources */,
+				5D4DE3C1141CF90C001D228E /* AaronCamAppDelegate.m in Sources */,
+				5D4DE3C7141CF90C001D228E /* AaronCamViewController.m in Sources */,
+				5D4DE4D3141D0091001D228E /* LFHTTPRequest.m in Sources */,
+				5D4DE4D4141D0091001D228E /* LFSiteReachability.m in Sources */,
+				5D4DE4D5141D0091001D228E /* NSData+LFHTTPFormExtensions.m in Sources */,
+				5D4DE4EF141D0091001D228E /* ObjectiveFlickr.m in Sources */,
+				5D4DE4F0141D0091001D228E /* OFXMLMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D4DE510141D0124001D228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectiveFlickr (library)";
+			targetProxy = 5D4DE50F141D0124001D228E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D4DE3B9141CF90C001D228E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4DE3BA141CF90C001D228E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D4DE3C2141CF90C001D228E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4DE3C3141CF90C001D228E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5D4DE3C8141CF90C001D228E /* AaronCamViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4DE3C9141CF90C001D228E /* en */,
+			);
+			name = AaronCamViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D4DE3CB141CF90C001D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D4DE3CC141CF90C001D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4DE3CE141CF90C001D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AaronCam/AaronCam-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					ext/ObjectiveFlickr/Source,
+					ext/ObjectiveFlickr/LFWebAPIKit,
+				);
+				INFOPLIST_FILE = "AaronCam/AaronCam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D4DE3CF141CF90C001D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AaronCam/AaronCam-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					ext/ObjectiveFlickr/Source,
+					ext/ObjectiveFlickr/LFWebAPIKit,
+				);
+				INFOPLIST_FILE = "AaronCam/AaronCam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4DE3A6141CF90B001D228E /* Build configuration list for PBXProject "AaronCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DE3CB141CF90C001D228E /* Debug */,
+				5D4DE3CC141CF90C001D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4DE3CD141CF90C001D228E /* Build configuration list for PBXNativeTarget "AaronCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DE3CE141CF90C001D228E /* Debug */,
+				5D4DE3CF141CF90C001D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4DE3A3141CF90B001D228E /* Project object */;
+}
